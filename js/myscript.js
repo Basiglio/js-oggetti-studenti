@@ -12,8 +12,8 @@ var studente = {
   eta: 33,
 }
 // UTILIZZO UN CICLO FOR PER STAMPARE TUTTO IL CONTENUTO DELL'OGGETTO
-for (var proprieta in studente) {
-  console.log(studente[proprieta]);
+for (var i in studente) {
+  console.log(studente[i]);
 }
 
 console.log("SECONDO ESERCIZIO");
@@ -47,8 +47,8 @@ var studenti =[
 ];
 // CERCO NELL'ARRAY
 
-for (var proprieta in studenti) {
- console.log(studenti[proprieta].nome + " " + studenti[proprieta].cognome);
+for (var i in studenti) {
+ console.log(studenti[i].nome + " " + studenti[i].cognome);
 }
 
 var nome = prompt("Scrivi il tuo nome?");
