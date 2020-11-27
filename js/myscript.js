@@ -51,13 +51,18 @@ for (var i in studenti) {
  console.log(studenti[i].nome + " " + studenti[i].cognome);
 }
 
+// CREO PROMPT
 var nome = prompt("Scrivi il tuo nome?");
 var cognome = prompt("qual'è il tuo cognome?");
 var eta = parseInt(prompt("quanti anni hai?"));
+// CREO OGGETTO NUOVO STUDENTE CON RISPOSTE DEI PROMPT
+var nuovoStudente = {
+  nome: nome,
+  cognome: cognome,
+  eta: eta,
+};
+console.log(nuovoStudente);
 
-
-studenti.push(nome);
-studenti.push(cognome);
-studenti.push(eta);
+studenti.push(nuovoStudente);
 
 console.log(studenti);
