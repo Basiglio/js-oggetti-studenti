@@ -62,7 +62,7 @@ var nuovoStudente = {
   eta: eta,
 };
 console.log(nuovoStudente);
-
+// PUSHO NUOVO UTENTE IN ARRAY STUDENTI
 studenti.push(nuovoStudente);
 
 console.log(studenti);
